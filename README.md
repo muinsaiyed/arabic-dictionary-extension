@@ -16,60 +16,72 @@ Whether you're studying Classical Arabic texts, reading Arabic news sites, or ex
 
 ## Installation Instructions
 
-1. **Download the extension file**
-   - Locate the ZIP file for the Arabic Hover Dictionary extension.
-   - Save it to your computer in a location you can easily find.
+1. **Clone the repository**
+   - Open your terminal or command prompt.
+   - Navigate to the directory where you want to store the extension.
+   - Run the following command:
+     ```
+     git clone https://github.com/YourUsername/arabic-hover-dictionary.git
+     ```
+   - Replace `YourUsername` with the actual GitHub username or organization name where the repository is hosted.
 
-2. **Unzip the file**
-   - Right-click on the ZIP file and select "Extract All" (Windows) or double-click the file (Mac).
-   - Choose a destination folder for the extracted files.
-
-3. **Open Chrome and navigate to the extensions page**
+2. **Open Chrome and navigate to the extensions page**
    - Open Google Chrome.
    - In the address bar, type `chrome://extensions` and press Enter.
 
-4. **Enable Developer Mode**
+3. **Enable Developer Mode**
    - Look for the "Developer mode" toggle in the top right corner of the extensions page.
    - Click the toggle to turn on Developer mode.
 
-5. **Load the unpacked extension**
+4. **Load the unpacked extension**
    - Click on the "Load unpacked" button that appears in the top left after enabling Developer mode.
-   - Navigate to the folder where you extracted the extension files.
+   - Navigate to the folder where you cloned the repository.
    - Select the folder and click "Select Folder" (Windows) or "Open" (Mac).
 
-6. **Verify the installation**
+5. **Verify the installation**
    - The Arabic Hover Dictionary should now appear in your list of extensions.
    - You should see the extension icon in the Chrome toolbar.
 
-7. **Configure the extension**
+6. **Configure the extension**
    - Click on the extension icon in the toolbar.
    - Enter your Anthropic API key in the settings popup.
    - Click "Save" to store your API key.
 
-8. **Start using the extension**
-   - Navigate to a webpage with Arabic text.
-   - Hover your mouse over an Arabic word.
-   - Press Ctrl+Shift+Space to activate the translation.
-   - The translation and explanation will appear in a tooltip.
-
 ## How to Use
 
-1. Go to a webpage containing Arabic text.
+1. Navigate to a webpage containing Arabic text.
 2. Move your mouse cursor over the Arabic word you want to translate.
 3. Press Ctrl+Shift+Space on your keyboard.
 4. A tooltip will appear with the translation and a brief explanation of the word.
 
 Note: The extension only activates when you use the Ctrl+Shift+Space shortcut after hovering over a word. This ensures that translations only appear when you specifically request them.
 
+## Updating the Extension
+
+To update the extension to the latest version:
+
+1. Navigate to the directory where you cloned the repository.
+2. Run the following command:
+   ```
+   git pull origin main
+   ```
+3. Go to `chrome://extensions` in your Chrome browser.
+4. Find the Arabic Hover Dictionary extension and click the refresh icon.
+
 ## Troubleshooting
 
-- If the extension doesn't appear, make sure all the files are in the correct folder structure.
+- If the extension doesn't appear, make sure all the files are in the correct folder structure after cloning.
 - If you see any errors, click on the "Errors" button in the extension card on the `chrome://extensions` page for more details.
 - Make sure you've entered a valid Anthropic API key in the extension settings.
 - If translations don't appear, ensure you're using the Ctrl+Shift+Space shortcut after hovering over a word.
+- If you're having issues after updating, try removing the extension and loading it again from the cloned directory.
 
 ## Feedback and Support
 
-If you encounter any issues or have suggestions for improvement, please contact the developer.
+We're constantly working to improve Arabic Hover Dictionary. If you encounter any issues, have suggestions for improvement, or want to share how you're using the tool, please:
 
-Enjoy using the Arabic Hover Dictionary!
+1. Check the [Issues](https://github.com/YourUsername/arabic-hover-dictionary/issues) page on GitHub to see if your problem has already been reported.
+2. If not, feel free to open a new issue with a detailed description of your problem or suggestion.
+3. For general inquiries, contact the developer.
+
+Enjoy exploring the rich world of Arabic text with Arabic Hover Dictionary!
